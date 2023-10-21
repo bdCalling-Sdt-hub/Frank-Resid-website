@@ -67,13 +67,10 @@ function Home() {
       >
         <Grid item lg={6} xs={12} className="header-text">
           <h1 style={{ color: "white" }}>
-            Awesome Technology, Sign Up now and Join our Community
+            Awesome App, Sign Up now and Rent your Residence and user can booking your residence
           </h1>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit
-            in veritatis labore perferendis. Minima hic at, nostrum nihil!
+          Welcome to Resid App, your all-in-one solution for finding, booking, and enjoying the ideal residence for your unique needs. Whether you're a globetrotter looking for a home away from home or a property owner seeking to rent out your space, our platform is designed to meet your requirements with ease and efficiency.
           </Typography>
 
           <div className="playstore-button">
