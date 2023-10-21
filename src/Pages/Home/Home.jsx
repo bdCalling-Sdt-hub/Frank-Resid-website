@@ -165,10 +165,9 @@ function Home() {
 
       <Grid container spacing={2} style={{ marginBottom: 50 }}>
         <Grid item lg={12} className="second-part-header">
-          <h1>Resid App Features</h1>
+          <h1>Features</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna
+          Explore the incredible features of Resid App. Streamlined bookings, secure payments, in-app communication, and more for an unparalleled residence booking experience
           </p>
         </Grid>
       </Grid>
@@ -181,12 +180,7 @@ function Home() {
       >
         <Grid item lg={3}md={4} xs={12} sm={12}  >
           <Card variant="outlined" className="feature">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/pastel-glyph/64/facebook-like--v1.png"
-              alt="facebook-like--v1"
-            />
+          <img width="64" height="64" src="https://img.icons8.com/ios-filled/50/opacity.png" alt="opacity"/>
             <h1>Fully Transparent</h1>
             <p>
               Accurate information of work. Visualization achieved through the
@@ -196,12 +190,7 @@ function Home() {
         </Grid>
         <Grid item lg={3} md={4} xs={12} sm={12}>
           <Card variant="outlined" className="feature">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/pastel-glyph/64/facebook-like--v1.png"
-              alt="facebook-like--v1"
-            />
+          <img width="64" height="64" src="https://img.icons8.com/wired/64/easy.png" alt="easy"/>
             <h1>Easy to Use</h1>
             <p>
               Accurate information of work. Visualization achieved through the
@@ -211,12 +200,7 @@ function Home() {
         </Grid>
         <Grid item lg={3}md={4} xs={12} sm={12}>
           <Card variant="outlined" className="feature">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/pastel-glyph/64/facebook-like--v1.png"
-              alt="facebook-like--v1"
-            />
+          <img width="64" height="64" src="https://img.icons8.com/carbon-copy/100/24-hours-day-support.png" alt="24-hours-day-support"/>
             <h1>24 x 7 Support</h1>
             <p>
               Accurate information of work. Visualization achieved through the
@@ -226,12 +210,7 @@ function Home() {
         </Grid>
         <Grid item lg={3} md={4} xs={12} sm={12}>
           <Card variant="outlined" className="feature">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/pastel-glyph/64/facebook-like--v1.png"
-              alt="facebook-like--v1"
-            />
+          <img width="64" height="64" src="https://img.icons8.com/dotty/80/sell-property.png" alt="sell-property"/>
             <h1>Rent your Residence</h1>
             <p>
               Accurate information of work. Visualization achieved through the
@@ -242,12 +221,7 @@ function Home() {
 
         <Grid item lg={3}md={4} xs={12} sm={12}>
           <Card variant="outlined" className="feature">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/pastel-glyph/64/facebook-like--v1.png"
-              alt="facebook-like--v1"
-            />
+          <img width="64" height="64" src="https://img.icons8.com/ios/50/booking.png" alt="booking"/>
             <h1>Booking your residence</h1>
             <p>
               Accurate information of work. Visualization achieved through the
@@ -257,13 +231,8 @@ function Home() {
         </Grid>
         <Grid item lg={3}md={4} xs={12} sm={12}>
           <Card variant="outlined" className="feature">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/pastel-glyph/64/facebook-like--v1.png"
-              alt="facebook-like--v1"
-            />
-            <h1>Feedback</h1>
+          <img width="64" height="64" src="https://img.icons8.com/external-others-pike-picture/50/external-Reviews-cinema-others-pike-picture.png" alt="external-Reviews-cinema-others-pike-picture"/>
+            <h1>Review</h1>
             <p>
               Accurate information of work. Visualization achieved through the
               board.
