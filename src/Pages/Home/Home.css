@@ -98,10 +98,10 @@
   display: none!important;
 } 
 
-/* .testimonial.swiper-pagination-bullets,
+.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal{
-  bottom: -1px!important;
-} */
+  bottom: -5px!important;
+} 
 @media only screen and (max-width: 600px) {
     .menubar{
         background-image: linear-gradient(to right,rgb(20, 18, 18), rgb(114, 114, 108));

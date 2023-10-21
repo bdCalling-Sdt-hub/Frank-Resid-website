@@ -106,7 +106,7 @@ function Footer() {
                
               </Typography>
               <Typography sx={{ my: 3,fontWeight:"bold" }}>France</Typography>
-              <Typography sx={{ mb: 3,fontWeight:"bold" }}>resid@gmail.com</Typography>
+              <Typography sx={{ mb: 3,fontWeight:"bold" }}>francksylv21@gmail.com</Typography>
               <Box className="social-link">
                 <a href="//twitter.com/" target="_blank">
                   <i className="fab fa-twitter"></i>
