@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Poppins:wght@300;400;500&family=Rubik&family=Sirin+Stencil&family=VT323&display=swap');
+
+
+*{
+  font-family: 'Rubik', sans-serif;
+}
+.menubar{
+    background-image: linear-gradient(to right,rgb(20, 18, 18), rgb(114, 114, 108));
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Rubik', sans-serif!important;
+
+
+}
+
+.header-banner{
+    background-image: linear-gradient(to right,rgb(20, 18, 18), rgb(114, 114, 108));
+ 
+    width: 100vh;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom:100px;
+  
+  
+    font-family: 'Rubik', sans-serif;
+
+
+}
+.header-text h1{
+    font-size: 60px;
+}
+
+.header-text p{
+  color: white;
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 40px;
+}
+
+.playstore-button .google{
+    margin-right: 20px;
+}
+
+.second-part-header{
+   text-align: center;
+   font-family: 'Rubik', sans-serif;
+  
+}
+
+.second-part-header p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.fetures-section{
+    padding-left: 100px;
+    padding-right: 100px; 
+    margin-bottom: 50px;
+}
+
+.fetures-section .feature{
+    
+   /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+     */
+     position: relative;
+     padding:50px;
+     text-align: center;
+     transition: 1s;
+   
+    
+}
+.fetures-section .feature::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px; /* Adjust the height of the border as needed */
+    background: linear-gradient(to right,rgb(20, 18, 18), rgb(185, 185, 183)); /* Adjust the colors as needed */
+  }
+
+.fetures-section .feature:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    overflow: hidden;
+  }
+
+.swiper-button-next,.swiper-button-prev{
+  display: none!important;
+} 
+
+/* .testimonial.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: -1px!important;
+} */
+@media only screen and (max-width: 600px) {
+    .menubar{
+        background-image: linear-gradient(to right,rgb(20, 18, 18), rgb(114, 114, 108));
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header-text h1{
+      font-size: 30px;
+  }
+
+  .header-banner{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    
+ }
+
+ .fetures-section{
+  padding-left: 30px;
+  padding-right: 30px; 
+
+}
+
+
+  }
+
