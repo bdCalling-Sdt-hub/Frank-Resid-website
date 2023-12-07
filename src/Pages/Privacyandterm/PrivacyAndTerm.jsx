@@ -8,18 +8,28 @@ import axios from 'axios';
 function PrivacyAndTerm() {
 
   const [term, setTerm] = useState("");
+  const [policy,setPolicy]=useState("");
 
   useEffect(() => {
 
     axios.get("http://192.168.10.18:3000/api/terms-and-conditions/resid-website").then((res) => {
+      console.log(res.data)
       setTerm(res.data.data.attributes.content)
+    }).catch(err => console.log(err))
+
+    axios.get("http://192.168.10.18:3000/api/privacy-policys/resid-website").then((res) => {
+      console.log(res.data)
+      setPolicy(res.data.data.attributes.content)
     }).catch(err => console.log(err))
 
   }, [])
   return (
     <div>
       <Navbar />
+      
       <Grid container spacing={2} style={{ marginBottom: "50px" }}>
+      
+        
         <Grid
           lg={12}
           md={12}
@@ -45,17 +55,8 @@ function PrivacyAndTerm() {
         }}
       >
         <Grid item lg={12} md={12} xs={12} sm={12} className="aboutus">
-          <h1 style={{ color: "#000" }}>Our Privacy and Policy</h1>
-
-          <Typography>
-            RESID+ is committed to respecting the privacy of Users and protecting their Personal Data. In this sense, the objective of this Privacy Policy is to inform the Data Subjects of the processing activities of RESID+ in accordance with Law No. 2013-450 of June 19, 2013 on the protection of personal data and the requirements provisions in force in Côte d'Ivoire.
-            The purpose of the Privacy Policy
-            This Privacy Policy provides information on the processing of personal data of Data Subjects who contact us via the contact form available on our website, in accordance with Law No. 2013-450.
-            To find them, the different stakeholders involved in this processing as well as our Data Subjects can access our main website (path to access), they can select the right they wish to exercise.
-            This Privacy Policy notice describes: how RESID+ collects and processes personal data, the different stakeholders involved in this processing as well as the rights of Data Subjects regarding their data.
-            We recommend that all stakeholders involved in the processing as well as Data Subjects read it carefully and regularly in order to fully understand this, as well as our privacy overview, which highlights the key points of our data processing practices. confidentiality.
-
-          </Typography>
+         
+         <div dangerouslySetInnerHTML={{ __html: policy }} />
 
           <Typography style={{ marginTop: "30px" }}>
             The collection and processing of data from users of the site respects the following principles:
@@ -122,9 +123,10 @@ function PrivacyAndTerm() {
         </Grid>
 
         <Grid item lg={12} md={12} xs={12} sm={12} className="aboutus">
-          <h1 style={{ color: "#000" }}>Term and Condition</h1>
+          
+          <div dangerouslySetInnerHTML={{ __html: term }} />
 
-          <Typography>
+          {/* <Typography>
             These general conditions of use constitute contractual clauses applicable to any user on the website and the application. The terms “you” and “user” mean the end user accessing the Website and the Application. The personal pronoun “we” refers to RESID+. The term “site” means ……...com.
             Object
             RESID+ is a technology company whose main activity is the development and management of a technology platform through which local homeowners can offer their products on the APPLICATION. In any case, RESID+ is only a simple intermediary and, therefore, its sole responsibility and task is to manage the APPLICATION which facilitates contact between the User and the Residence Owner. RESID+ is in no way responsible for the products and/or services offered via the APPLICATION.
@@ -223,7 +225,7 @@ function PrivacyAndTerm() {
             You can access your primary data by logging into your account on the website or mobile app.
             Independence of clauses
             These contractual clauses are independent of each other, the nullity of one does not entail nullity of this contract.
-          </Typography>
+          </Typography> */}
 
         </Grid>
 

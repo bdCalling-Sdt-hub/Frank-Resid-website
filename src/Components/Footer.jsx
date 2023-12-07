@@ -102,7 +102,7 @@ function Footer() {
               </Typography>
               <Typography sx={{ color: "#fff",fontWeight:"bold" }}>
                
-                  <i className="fas fa-phone-alt"></i> 019-051-30403
+                  <i className="fas fa-phone-alt"></i>+2250757063629
                
               </Typography>
               <Typography sx={{ my: 3,fontWeight:"bold" }}>France</Typography>
